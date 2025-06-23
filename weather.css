@@ -1,0 +1,46 @@
+.box{
+width:250px;
+height:320px;
+border-radius: 20px;
+justify-content: center;
+text-align: center;
+border:1px solid limegreen;
+background-color: rgba(0, 0, 0, 0.5);
+color: brown;
+}
+#weatherbtn{
+    border-radius: 5px;
+    background-color: blue;
+    margin-top: 5px;
+    cursor: pointer;
+    
+}
+#weatherbtn:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+#searchbox{
+
+    text-align: center;
+    
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+    background-image:  url(/netflix/images/B3.jpg);
+}
+.box:hover{
+        transform: scale(1.1);
+    transition: 0.5s;
+    background-color: lightblue;
+   
+
+}
+
+#t{
+
+    border-radius: 5px ;
+    background-color: aqua;
+}
