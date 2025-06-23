@@ -52,7 +52,7 @@ Weatherbtn.addEventListener('click',()=>{
 
 
   let Weathervalue=Searchbox.value;
-  fetch(`https://api.openweathermap.org/data/2.5/weather?q=${Weathervalue}&appid=3863da55dc57121de9d39dffa6f50918&units=metric`).then((response)=>{
+  fetch(`https://api.openweathermap.org/data/2.5/weather?q=${Weathervalue}&appid=id&units=metric`).then((response)=>{
     if(!response.ok){
       throw new Error("Network response was not ok");
     }
